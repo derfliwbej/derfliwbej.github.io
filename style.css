@@ -26,16 +26,16 @@ body {
 
 .main-container {
   width: 50%;
+  height: 50%;
   display: flex;
 }
 
 .picture {
   display: block;
-  max-width: 40%;
-  max-height: 640px;
+  min-width: 240px;
+  height: 100%;
   width: auto;
   height: auto;
-  vertical-align: text-bottom;
   border-radius: 7px;
   margin-right: 25px;
 }
@@ -43,4 +43,5 @@ body {
 .introduction {
   text-align: justify;
   font-size: 22px;
+  min-width: 310px;
 }
