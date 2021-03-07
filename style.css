@@ -11,6 +11,7 @@ html, body {
   vertical-align: baseline;
 }
 
+
 body {
   background-color: #0d0d0d;
   color: white;
@@ -24,20 +25,22 @@ body {
 }
 
 .main-container {
-  background-color: orange;
-  width: 40%;
+  width: 50%;
+  display: flex;
 }
 
 .picture {
-  display: inline-block;
+  display: block;
   max-width: 40%;
   max-height: 640px;
   width: auto;
   height: auto;
-  vertical-align: text-top;
-  border-radius: 5px;
+  vertical-align: text-bottom;
+  border-radius: 7px;
+  margin-right: 25px;
 }
 
-.inline {
-  display: inline-block;
+.introduction {
+  text-align: justify;
+  font-size: 22px;
 }
